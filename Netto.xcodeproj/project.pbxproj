@@ -10,19 +10,19 @@
 		191ADD1C1D9451F30044CB47 /* Netto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191ADD111D9451F30044CB47 /* Netto.framework */; };
 		191ADD3E1D9452580044CB47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 191ADD2C1D9452580044CB47 /* Info.plist */; };
 		191ADD3F1D9452580044CB47 /* NettoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD2D1D9452580044CB47 /* NettoTests.swift */; };
-		191ADD401D9452580044CB47 /* DownloadSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD301D9452580044CB47 /* DownloadSessionDelegate.swift */; };
-		191ADD411D9452580044CB47 /* DownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD311D9452580044CB47 /* DownloadTask.swift */; };
-		191ADD421D9452580044CB47 /* NettoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD321D9452580044CB47 /* NettoDownloader.swift */; };
-		191ADD431D9452580044CB47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 191ADD331D9452580044CB47 /* Info.plist */; };
-		191ADD441D9452580044CB47 /* Netto.h in Headers */ = {isa = PBXBuildFile; fileRef = 191ADD341D9452580044CB47 /* Netto.h */; };
-		191ADD451D9452580044CB47 /* Netto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD351D9452580044CB47 /* Netto.swift */; };
-		191ADD461D9452580044CB47 /* NettoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD361D9452580044CB47 /* NettoUtils.swift */; };
-		191ADD471D9452580044CB47 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD371D9452580044CB47 /* NetworkErrors.swift */; };
-		191ADD481D9452580044CB47 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD381D9452580044CB47 /* Strings.swift */; };
-		191ADD491D9452580044CB47 /* NettoUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD3A1D9452580044CB47 /* NettoUploader.swift */; };
-		191ADD4A1D9452580044CB47 /* PhotoUploadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD3B1D9452580044CB47 /* PhotoUploadOperation.swift */; };
-		191ADD4B1D9452580044CB47 /* UploadSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD3C1D9452580044CB47 /* UploadSessionDelegate.swift */; };
-		191ADD4C1D9452580044CB47 /* UploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD3D1D9452580044CB47 /* UploadTask.swift */; };
+		191ADD5B1D94538E0044CB47 /* DownloadSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD4E1D94538E0044CB47 /* DownloadSessionDelegate.swift */; };
+		191ADD5C1D94538E0044CB47 /* DownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD4F1D94538E0044CB47 /* DownloadTask.swift */; };
+		191ADD5D1D94538E0044CB47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 191ADD501D94538E0044CB47 /* Info.plist */; };
+		191ADD5E1D94538E0044CB47 /* Netto.h in Headers */ = {isa = PBXBuildFile; fileRef = 191ADD511D94538E0044CB47 /* Netto.h */; };
+		191ADD5F1D94538E0044CB47 /* Netto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD521D94538E0044CB47 /* Netto.swift */; };
+		191ADD601D94538E0044CB47 /* NettoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD531D94538E0044CB47 /* NettoDownloader.swift */; };
+		191ADD611D94538E0044CB47 /* NettoUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD541D94538E0044CB47 /* NettoUploader.swift */; };
+		191ADD621D94538E0044CB47 /* NettoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD551D94538E0044CB47 /* NettoUtils.swift */; };
+		191ADD631D94538E0044CB47 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD561D94538E0044CB47 /* NetworkErrors.swift */; };
+		191ADD641D94538E0044CB47 /* PhotoUploadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD571D94538E0044CB47 /* PhotoUploadOperation.swift */; };
+		191ADD651D94538E0044CB47 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD581D94538E0044CB47 /* Strings.swift */; };
+		191ADD661D94538E0044CB47 /* UploadSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD591D94538E0044CB47 /* UploadSessionDelegate.swift */; };
+		191ADD671D94538E0044CB47 /* UploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD5A1D94538E0044CB47 /* UploadTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,19 +40,19 @@
 		191ADD1B1D9451F30044CB47 /* NettoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NettoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		191ADD2C1D9452580044CB47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		191ADD2D1D9452580044CB47 /* NettoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NettoTests.swift; sourceTree = "<group>"; };
-		191ADD301D9452580044CB47 /* DownloadSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadSessionDelegate.swift; sourceTree = "<group>"; };
-		191ADD311D9452580044CB47 /* DownloadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadTask.swift; sourceTree = "<group>"; };
-		191ADD321D9452580044CB47 /* NettoDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NettoDownloader.swift; sourceTree = "<group>"; };
-		191ADD331D9452580044CB47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		191ADD341D9452580044CB47 /* Netto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Netto.h; sourceTree = "<group>"; };
-		191ADD351D9452580044CB47 /* Netto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Netto.swift; sourceTree = "<group>"; };
-		191ADD361D9452580044CB47 /* NettoUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NettoUtils.swift; sourceTree = "<group>"; };
-		191ADD371D9452580044CB47 /* NetworkErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
-		191ADD381D9452580044CB47 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
-		191ADD3A1D9452580044CB47 /* NettoUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NettoUploader.swift; sourceTree = "<group>"; };
-		191ADD3B1D9452580044CB47 /* PhotoUploadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoUploadOperation.swift; sourceTree = "<group>"; };
-		191ADD3C1D9452580044CB47 /* UploadSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadSessionDelegate.swift; sourceTree = "<group>"; };
-		191ADD3D1D9452580044CB47 /* UploadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTask.swift; sourceTree = "<group>"; };
+		191ADD4E1D94538E0044CB47 /* DownloadSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadSessionDelegate.swift; sourceTree = "<group>"; };
+		191ADD4F1D94538E0044CB47 /* DownloadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadTask.swift; sourceTree = "<group>"; };
+		191ADD501D94538E0044CB47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191ADD511D94538E0044CB47 /* Netto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Netto.h; sourceTree = "<group>"; };
+		191ADD521D94538E0044CB47 /* Netto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Netto.swift; sourceTree = "<group>"; };
+		191ADD531D94538E0044CB47 /* NettoDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NettoDownloader.swift; sourceTree = "<group>"; };
+		191ADD541D94538E0044CB47 /* NettoUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NettoUploader.swift; sourceTree = "<group>"; };
+		191ADD551D94538E0044CB47 /* NettoUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NettoUtils.swift; sourceTree = "<group>"; };
+		191ADD561D94538E0044CB47 /* NetworkErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		191ADD571D94538E0044CB47 /* PhotoUploadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoUploadOperation.swift; sourceTree = "<group>"; };
+		191ADD581D94538E0044CB47 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		191ADD591D94538E0044CB47 /* UploadSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadSessionDelegate.swift; sourceTree = "<group>"; };
+		191ADD5A1D94538E0044CB47 /* UploadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 		191ADD071D9451F30044CB47 = {
 			isa = PBXGroup;
 			children = (
-				191ADD2E1D9452580044CB47 /* Source */,
+				191ADD4D1D94538E0044CB47 /* Source */,
 				191ADD2B1D9452580044CB47 /* NettoTests */,
 				191ADD121D9451F30044CB47 /* Products */,
 			);
@@ -101,40 +101,24 @@
 			path = NettoTests;
 			sourceTree = "<group>";
 		};
-		191ADD2E1D9452580044CB47 /* Source */ = {
+		191ADD4D1D94538E0044CB47 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				191ADD2F1D9452580044CB47 /* Download */,
-				191ADD331D9452580044CB47 /* Info.plist */,
-				191ADD341D9452580044CB47 /* Netto.h */,
-				191ADD351D9452580044CB47 /* Netto.swift */,
-				191ADD361D9452580044CB47 /* NettoUtils.swift */,
-				191ADD371D9452580044CB47 /* NetworkErrors.swift */,
-				191ADD381D9452580044CB47 /* Strings.swift */,
-				191ADD391D9452580044CB47 /* Upload */,
+				191ADD4E1D94538E0044CB47 /* DownloadSessionDelegate.swift */,
+				191ADD4F1D94538E0044CB47 /* DownloadTask.swift */,
+				191ADD501D94538E0044CB47 /* Info.plist */,
+				191ADD511D94538E0044CB47 /* Netto.h */,
+				191ADD521D94538E0044CB47 /* Netto.swift */,
+				191ADD531D94538E0044CB47 /* NettoDownloader.swift */,
+				191ADD541D94538E0044CB47 /* NettoUploader.swift */,
+				191ADD551D94538E0044CB47 /* NettoUtils.swift */,
+				191ADD561D94538E0044CB47 /* NetworkErrors.swift */,
+				191ADD571D94538E0044CB47 /* PhotoUploadOperation.swift */,
+				191ADD581D94538E0044CB47 /* Strings.swift */,
+				191ADD591D94538E0044CB47 /* UploadSessionDelegate.swift */,
+				191ADD5A1D94538E0044CB47 /* UploadTask.swift */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		191ADD2F1D9452580044CB47 /* Download */ = {
-			isa = PBXGroup;
-			children = (
-				191ADD301D9452580044CB47 /* DownloadSessionDelegate.swift */,
-				191ADD311D9452580044CB47 /* DownloadTask.swift */,
-				191ADD321D9452580044CB47 /* NettoDownloader.swift */,
-			);
-			path = Download;
-			sourceTree = "<group>";
-		};
-		191ADD391D9452580044CB47 /* Upload */ = {
-			isa = PBXGroup;
-			children = (
-				191ADD3A1D9452580044CB47 /* NettoUploader.swift */,
-				191ADD3B1D9452580044CB47 /* PhotoUploadOperation.swift */,
-				191ADD3C1D9452580044CB47 /* UploadSessionDelegate.swift */,
-				191ADD3D1D9452580044CB47 /* UploadTask.swift */,
-			);
-			path = Upload;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +128,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				191ADD441D9452580044CB47 /* Netto.h in Headers */,
+				191ADD5E1D94538E0044CB47 /* Netto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				191ADD431D9452580044CB47 /* Info.plist in Resources */,
+				191ADD5D1D94538E0044CB47 /* Info.plist in Resources */,
 				191ADD3E1D9452580044CB47 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,18 +231,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				191ADD451D9452580044CB47 /* Netto.swift in Sources */,
+				191ADD641D94538E0044CB47 /* PhotoUploadOperation.swift in Sources */,
+				191ADD611D94538E0044CB47 /* NettoUploader.swift in Sources */,
+				191ADD651D94538E0044CB47 /* Strings.swift in Sources */,
+				191ADD671D94538E0044CB47 /* UploadTask.swift in Sources */,
+				191ADD661D94538E0044CB47 /* UploadSessionDelegate.swift in Sources */,
+				191ADD5F1D94538E0044CB47 /* Netto.swift in Sources */,
+				191ADD621D94538E0044CB47 /* NettoUtils.swift in Sources */,
 				191ADD3F1D9452580044CB47 /* NettoTests.swift in Sources */,
-				191ADD481D9452580044CB47 /* Strings.swift in Sources */,
-				191ADD4C1D9452580044CB47 /* UploadTask.swift in Sources */,
-				191ADD4B1D9452580044CB47 /* UploadSessionDelegate.swift in Sources */,
-				191ADD491D9452580044CB47 /* NettoUploader.swift in Sources */,
-				191ADD421D9452580044CB47 /* NettoDownloader.swift in Sources */,
-				191ADD471D9452580044CB47 /* NetworkErrors.swift in Sources */,
-				191ADD411D9452580044CB47 /* DownloadTask.swift in Sources */,
-				191ADD461D9452580044CB47 /* NettoUtils.swift in Sources */,
-				191ADD401D9452580044CB47 /* DownloadSessionDelegate.swift in Sources */,
-				191ADD4A1D9452580044CB47 /* PhotoUploadOperation.swift in Sources */,
+				191ADD5C1D94538E0044CB47 /* DownloadTask.swift in Sources */,
+				191ADD631D94538E0044CB47 /* NetworkErrors.swift in Sources */,
+				191ADD5B1D94538E0044CB47 /* DownloadSessionDelegate.swift in Sources */,
+				191ADD601D94538E0044CB47 /* NettoDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
