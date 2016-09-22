@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let netto = NettoPodManager()
-        netto.getName("Netto")
+        print("\(netto.getName("Netto"))")
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,8 +14,6 @@
 		199C6D5D1D944534002630EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199C6D5B1D944534002630EC /* LaunchScreen.storyboard */; };
 		199C6D681D944535002630EC /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C6D671D944535002630EC /* ExampleTests.swift */; };
 		199C6D731D944535002630EC /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C6D721D944535002630EC /* ExampleUITests.swift */; };
-		199C6DB41D9446BA002630EC /* Netto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6DAF1D94467B002630EC /* Netto.framework */; };
-		199C6DB61D9446FF002630EC /* Netto.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 199C6DAF1D94467B002630EC /* Netto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,27 +31,6 @@
 			remoteGlobalIDString = 199C6D4E1D944534002630EC;
 			remoteInfo = Example;
 		};
-		199C6DAE1D94467B002630EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 199C6DA91D94467B002630EC /* Netto.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 199C6D8A1D944582002630EC;
-			remoteInfo = Netto;
-		};
-		199C6DB01D94467B002630EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 199C6DA91D94467B002630EC /* Netto.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 199C6D941D944582002630EC;
-			remoteInfo = NettoTests;
-		};
-		199C6DB21D9446AC002630EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 199C6DA91D94467B002630EC /* Netto.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 199C6D891D944582002630EC;
-			remoteInfo = Netto;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				199C6DB61D9446FF002630EC /* Netto.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,7 +60,6 @@
 		199C6D6E1D944535002630EC /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		199C6D721D944535002630EC /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		199C6D741D944535002630EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		199C6DA91D94467B002630EC /* Netto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Netto.xcodeproj; path = ../Netto/Netto.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				199C6DB41D9446BA002630EC /* Netto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +94,6 @@
 				199C6D661D944535002630EC /* ExampleTests */,
 				199C6D711D944535002630EC /* ExampleUITests */,
 				199C6D501D944534002630EC /* Products */,
-				199C6DA91D94467B002630EC /* Netto.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,15 +138,6 @@
 			path = ExampleUITests;
 			sourceTree = "<group>";
 		};
-		199C6DAA1D94467B002630EC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				199C6DAF1D94467B002630EC /* Netto.framework */,
-				199C6DB11D94467B002630EC /* NettoTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,7 +153,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				199C6DB31D9446AC002630EC /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -266,12 +229,6 @@
 			mainGroup = 199C6D461D944534002630EC;
 			productRefGroup = 199C6D501D944534002630EC /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 199C6DAA1D94467B002630EC /* Products */;
-					ProjectRef = 199C6DA91D94467B002630EC /* Netto.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				199C6D4E1D944534002630EC /* Example */,
@@ -280,23 +237,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		199C6DAF1D94467B002630EC /* Netto.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Netto.framework;
-			remoteRef = 199C6DAE1D94467B002630EC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		199C6DB11D94467B002630EC /* NettoTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NettoTests.xctest;
-			remoteRef = 199C6DB01D94467B002630EC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		199C6D4D1D944534002630EC /* Resources */ = {
@@ -363,11 +303,6 @@
 			isa = PBXTargetDependency;
 			target = 199C6D4E1D944534002630EC /* Example */;
 			targetProxy = 199C6D6F1D944535002630EC /* PBXContainerItemProxy */;
-		};
-		199C6DB31D9446AC002630EC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Netto;
-			targetProxy = 199C6DB21D9446AC002630EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -563,6 +498,7 @@
 				199C6D791D944535002630EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		199C6D7A1D944535002630EC /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +507,7 @@
 				199C6D7C1D944535002630EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		199C6D7D1D944535002630EC /* Build configuration list for PBXNativeTarget "ExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +516,7 @@
 				199C6D7F1D944535002630EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

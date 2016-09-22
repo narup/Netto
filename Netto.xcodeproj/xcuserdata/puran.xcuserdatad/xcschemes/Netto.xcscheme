@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "199C6D891D944582002630EC"
+               BlueprintIdentifier = "191ADD101D9451F30044CB47"
                BuildableName = "Netto.framework"
                BlueprintName = "Netto"
                ReferencedContainer = "container:Netto.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "199C6D931D944582002630EC"
+               BlueprintIdentifier = "191ADD1A1D9451F30044CB47"
                BuildableName = "NettoTests.xctest"
                BlueprintName = "NettoTests"
                ReferencedContainer = "container:Netto.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "199C6D891D944582002630EC"
+            BlueprintIdentifier = "191ADD101D9451F30044CB47"
             BuildableName = "Netto.framework"
             BlueprintName = "Netto"
             ReferencedContainer = "container:Netto.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "199C6D891D944582002630EC"
+            BlueprintIdentifier = "191ADD101D9451F30044CB47"
             BuildableName = "Netto.framework"
             BlueprintName = "Netto"
             ReferencedContainer = "container:Netto.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "199C6D891D944582002630EC"
+            BlueprintIdentifier = "191ADD101D9451F30044CB47"
             BuildableName = "Netto.framework"
             BlueprintName = "Netto"
             ReferencedContainer = "container:Netto.xcodeproj">
