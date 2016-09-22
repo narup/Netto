@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		191ADD1C1D9451F30044CB47 /* Netto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191ADD111D9451F30044CB47 /* Netto.framework */; };
-		191ADD3E1D9452580044CB47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 191ADD2C1D9452580044CB47 /* Info.plist */; };
-		191ADD3F1D9452580044CB47 /* NettoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD2D1D9452580044CB47 /* NettoTests.swift */; };
 		191ADD5B1D94538E0044CB47 /* DownloadSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD4E1D94538E0044CB47 /* DownloadSessionDelegate.swift */; };
 		191ADD5C1D94538E0044CB47 /* DownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD4F1D94538E0044CB47 /* DownloadTask.swift */; };
 		191ADD5D1D94538E0044CB47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 191ADD501D94538E0044CB47 /* Info.plist */; };
@@ -25,21 +22,8 @@
 		191ADD671D94538E0044CB47 /* UploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD5A1D94538E0044CB47 /* UploadTask.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		191ADD1D1D9451F30044CB47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 191ADD081D9451F30044CB47 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 191ADD101D9451F30044CB47;
-			remoteInfo = Netto;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		191ADD111D9451F30044CB47 /* Netto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Netto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		191ADD1B1D9451F30044CB47 /* NettoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NettoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		191ADD2C1D9452580044CB47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		191ADD2D1D9452580044CB47 /* NettoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NettoTests.swift; sourceTree = "<group>"; };
 		191ADD4E1D94538E0044CB47 /* DownloadSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadSessionDelegate.swift; sourceTree = "<group>"; };
 		191ADD4F1D94538E0044CB47 /* DownloadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadTask.swift; sourceTree = "<group>"; };
 		191ADD501D94538E0044CB47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,14 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		191ADD181D9451F30044CB47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				191ADD1C1D9451F30044CB47 /* Netto.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				191ADD4D1D94538E0044CB47 /* Source */,
-				191ADD2B1D9452580044CB47 /* NettoTests */,
 				191ADD121D9451F30044CB47 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,18 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				191ADD111D9451F30044CB47 /* Netto.framework */,
-				191ADD1B1D9451F30044CB47 /* NettoTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		191ADD2B1D9452580044CB47 /* NettoTests */ = {
-			isa = PBXGroup;
-			children = (
-				191ADD2C1D9452580044CB47 /* Info.plist */,
-				191ADD2D1D9452580044CB47 /* NettoTests.swift */,
-			);
-			path = NettoTests;
 			sourceTree = "<group>";
 		};
 		191ADD4D1D94538E0044CB47 /* Source */ = {
@@ -153,24 +118,6 @@
 			productReference = 191ADD111D9451F30044CB47 /* Netto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		191ADD1A1D9451F30044CB47 /* NettoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 191ADD281D9451F30044CB47 /* Build configuration list for PBXNativeTarget "NettoTests" */;
-			buildPhases = (
-				191ADD171D9451F30044CB47 /* Sources */,
-				191ADD181D9451F30044CB47 /* Frameworks */,
-				191ADD191D9451F30044CB47 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				191ADD1E1D9451F30044CB47 /* PBXTargetDependency */,
-			);
-			name = NettoTests;
-			productName = NettoTests;
-			productReference = 191ADD1B1D9451F30044CB47 /* NettoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -182,9 +129,6 @@
 				ORGANIZATIONNAME = "Huma Labs";
 				TargetAttributes = {
 					191ADD101D9451F30044CB47 = {
-						CreatedOnToolsVersion = 7.3.1;
-					};
-					191ADD1A1D9451F30044CB47 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -202,7 +146,6 @@
 			projectRoot = "";
 			targets = (
 				191ADD101D9451F30044CB47 /* Netto */,
-				191ADD1A1D9451F30044CB47 /* NettoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -213,14 +156,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				191ADD5D1D94538E0044CB47 /* Info.plist in Resources */,
-				191ADD3E1D9452580044CB47 /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		191ADD191D9451F30044CB47 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +173,6 @@
 				191ADD661D94538E0044CB47 /* UploadSessionDelegate.swift in Sources */,
 				191ADD5F1D94538E0044CB47 /* Netto.swift in Sources */,
 				191ADD621D94538E0044CB47 /* NettoUtils.swift in Sources */,
-				191ADD3F1D9452580044CB47 /* NettoTests.swift in Sources */,
 				191ADD5C1D94538E0044CB47 /* DownloadTask.swift in Sources */,
 				191ADD631D94538E0044CB47 /* NetworkErrors.swift in Sources */,
 				191ADD5B1D94538E0044CB47 /* DownloadSessionDelegate.swift in Sources */,
@@ -246,22 +180,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		191ADD171D9451F30044CB47 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		191ADD1E1D9451F30044CB47 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 191ADD101D9451F30044CB47 /* Netto */;
-			targetProxy = 191ADD1D1D9451F30044CB47 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		191ADD231D9451F30044CB47 /* Debug */ = {
@@ -387,26 +306,6 @@
 			};
 			name = Release;
 		};
-		191ADD291D9451F30044CB47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = NettoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.humalabs.NettoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		191ADD2A1D9451F30044CB47 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = NettoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.humalabs.NettoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,15 +323,6 @@
 			buildConfigurations = (
 				191ADD261D9451F30044CB47 /* Debug */,
 				191ADD271D9451F30044CB47 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		191ADD281D9451F30044CB47 /* Build configuration list for PBXNativeTarget "NettoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				191ADD291D9451F30044CB47 /* Debug */,
-				191ADD2A1D9451F30044CB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
