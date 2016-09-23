@@ -22,6 +22,7 @@
 		191ADD671D94538E0044CB47 /* UploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD5A1D94538E0044CB47 /* UploadTask.swift */; };
 		191ADD741D9458620044CB47 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD731D9458620044CB47 /* Tests.swift */; };
 		191ADD761D9458620044CB47 /* Netto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191ADD111D9451F30044CB47 /* Netto.framework */; };
+		191ADD7E1D94AF730044CB47 /* Netto.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 191ADD7D1D94AF730044CB47 /* Netto.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		191ADD711D9458620044CB47 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		191ADD731D9458620044CB47 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		191ADD751D9458620044CB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191ADD7D1D94AF730044CB47 /* Netto.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Netto.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		191ADD071D9451F30044CB47 = {
 			isa = PBXGroup;
 			children = (
+				191ADD7D1D94AF730044CB47 /* Netto.podspec */,
 				191ADD4D1D94538E0044CB47 /* Source */,
 				191ADD721D9458620044CB47 /* Tests */,
 				191ADD121D9451F30044CB47 /* Products */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				191ADD5D1D94538E0044CB47 /* Info.plist in Resources */,
+				191ADD7E1D94AF730044CB47 /* Netto.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    Lightweight networking library written in Swift for iOS.
                    DESC
 
-  s.homepage     = "http://netto.github.io"
+  s.homepage     = "http://narup.github.io"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -54,9 +54,7 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "Puran" => "mailtopuran@gmail.com" }
-  # Or just: s.author    = "Puran Singh"
-  # s.authors            = { "Puran Singh" => "puran@Purans-MacBook-Pro.local" }
-  # s.social_media_url   = "http://twitter.com/Puran Singh"
+  s.social_media_url   = "http://twitter.com/purans"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -65,7 +63,7 @@ Pod::Spec.new do |s|
   #
 
   #s.platform     = :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.watchos.deployment_target = '2.0'
 
   #  When using multiple platforms
@@ -92,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Netto/**/*.swift"
-
+  s.source_files  = "Source/*.swift"
+  
   # s.public_header_files = "Classes/**/*.h"
 
 

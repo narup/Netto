@@ -6,6 +6,7 @@
 //  Copyright © 2016 Huma Labs. All rights reserved.
 //
 import Foundation
+import UIKit
 
 public typealias UploadHandler = ((imageId:String?, error:NSError?) -> Void)
 
