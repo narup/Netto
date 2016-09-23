@@ -20,7 +20,19 @@
 		191ADD651D94538E0044CB47 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD581D94538E0044CB47 /* Strings.swift */; };
 		191ADD661D94538E0044CB47 /* UploadSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD591D94538E0044CB47 /* UploadSessionDelegate.swift */; };
 		191ADD671D94538E0044CB47 /* UploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD5A1D94538E0044CB47 /* UploadTask.swift */; };
+		191ADD741D9458620044CB47 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191ADD731D9458620044CB47 /* Tests.swift */; };
+		191ADD761D9458620044CB47 /* Netto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191ADD111D9451F30044CB47 /* Netto.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		191ADD771D9458620044CB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 191ADD081D9451F30044CB47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 191ADD101D9451F30044CB47;
+			remoteInfo = Netto;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		191ADD111D9451F30044CB47 /* Netto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Netto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +49,9 @@
 		191ADD581D94538E0044CB47 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		191ADD591D94538E0044CB47 /* UploadSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadSessionDelegate.swift; sourceTree = "<group>"; };
 		191ADD5A1D94538E0044CB47 /* UploadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTask.swift; sourceTree = "<group>"; };
+		191ADD711D9458620044CB47 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		191ADD731D9458620044CB47 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		191ADD751D9458620044CB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		191ADD6E1D9458620044CB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191ADD761D9458620044CB47 /* Netto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				191ADD4D1D94538E0044CB47 /* Source */,
+				191ADD721D9458620044CB47 /* Tests */,
 				191ADD121D9451F30044CB47 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				191ADD111D9451F30044CB47 /* Netto.framework */,
+				191ADD711D9458620044CB47 /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +109,15 @@
 				191ADD5A1D94538E0044CB47 /* UploadTask.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		191ADD721D9458620044CB47 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				191ADD731D9458620044CB47 /* Tests.swift */,
+				191ADD751D9458620044CB47 /* Info.plist */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +152,24 @@
 			productReference = 191ADD111D9451F30044CB47 /* Netto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		191ADD701D9458620044CB47 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191ADD791D9458620044CB47 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				191ADD6D1D9458620044CB47 /* Sources */,
+				191ADD6E1D9458620044CB47 /* Frameworks */,
+				191ADD6F1D9458620044CB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				191ADD781D9458620044CB47 /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 191ADD711D9458620044CB47 /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -129,6 +181,9 @@
 				ORGANIZATIONNAME = "Huma Labs";
 				TargetAttributes = {
 					191ADD101D9451F30044CB47 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					191ADD701D9458620044CB47 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -146,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				191ADD101D9451F30044CB47 /* Netto */,
+				191ADD701D9458620044CB47 /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +212,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				191ADD5D1D94538E0044CB47 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191ADD6F1D9458620044CB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +243,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		191ADD6D1D9458620044CB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191ADD741D9458620044CB47 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		191ADD781D9458620044CB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 191ADD101D9451F30044CB47 /* Netto */;
+			targetProxy = 191ADD771D9458620044CB47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		191ADD231D9451F30044CB47 /* Debug */ = {
@@ -306,6 +385,26 @@
 			};
 			name = Release;
 		};
+		191ADD7A1D9458620044CB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.humalabs.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		191ADD7B1D9458620044CB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.humalabs.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -326,6 +425,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		191ADD791D9458620044CB47 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191ADD7A1D9458620044CB47 /* Debug */,
+				191ADD7B1D9458620044CB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
